@@ -1,0 +1,22 @@
+{
+  "name": "lilbusiness",
+  "version": "0.0.1",
+  "description": "Little Business is an engine to empower the small new business of an entrepreneur",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirArreaza/LilBusiness.git"
+  },
+  "keywords": [
+    "RESTFul"
+  ],
+  "author": "Amir Arreaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirArreaza/LilBusiness/issues"
+  },
+  "homepage": "https://github.com/AmirArreaza/LilBusiness#readme"
+}
