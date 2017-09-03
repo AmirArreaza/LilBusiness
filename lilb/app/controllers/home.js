@@ -11,14 +11,11 @@ exports.loggedIn = function(req, res, next)
 	} else {
 
 		res.redirect('/login');
-
 	}
-
 }
 
 exports.home = function(req, res) {
-	
-	
+
 	res.render('home.ejs', {
 		error : req.flash("error"),
 		success: req.flash("success"),
@@ -67,5 +64,3 @@ exports.login = function(req, res) {
 	
 }
 
-
-    

@@ -1,0 +1,76 @@
+8/3/2017, 20:06:47 - verbose: Verbose info
+8/3/2017, 20:06:47 - info: Hello world
+8/3/2017, 20:06:47 - warn: Warning message
+8/3/2017, 20:06:47 - error: Error info
+8/3/2017, 20:16:26 [VERBOSE] Verbose info
+8/3/2017, 20:16:26 [INFO] Hello world
+8/3/2017, 20:16:26 [WARN] Warning message
+8/3/2017, 20:16:26 [ERROR] Error info
+8/3/2017, 20:19:26 [VERBOSE] Verbose info
+8/3/2017, 20:19:26 [INFO] Hello world
+8/3/2017, 20:19:26 [WARN] Warning message
+8/3/2017, 20:19:26 [ERROR] Error info
+ [VERBOSE] Verbose info
+ [INFO] Hello world
+ [WARN] Warning message
+ [ERROR] Error info
+20170803 20:26:45 [VERBOSE] Verbose info
+20170803 20:26:45 [INFO] Hello world
+20170803 20:26:45 [WARN] Warning message
+20170803 20:26:45 [ERROR] Error info
+20170803 20:29:06 53 [VERBOSE] Verbose info
+20170803 20:29:06 53 [INFO] Hello world
+20170803 20:29:06 53 [WARN] Warning message
+20170803 20:29:06 53 [ERROR] Error info
+20170803 20:31:39 44 [VERBOSE] Verbose info
+20170803 20:31:39 44 [INFO] Hello world
+20170803 20:31:39 44 [WARN] Warning message
+20170803 20:31:39 44 [ERROR] Error info
+20170803 20:32:53 18 [VERBOSE] Verbose info
+20170803 20:32:53 18 [INFO] Hello world
+20170803 20:32:53 18 [WARN] Warning message
+20170803 20:32:53 19 [ERROR] Error info
+20170803 20:33:32 92 [VERBOSE] Verbose info
+20170803 20:33:32 92 [INFO] Hello world
+20170803 20:33:32 92 [WARN] Warning message
+20170803 20:33:32 93 [ERROR] Error info
+20170803 20:34:28 74 [VERBOSE] Verbose info
+20170803 20:34:28 74 [INFO] Hello world
+20170803 20:34:28 74 [WARN] Warning message
+20170803 20:34:28 74 [ERROR] Error info
+20170803 20:37:03 42 [VERBOSE] Verbose info
+20170803 20:37:03 42 [INFO] Hello world
+20170803 20:37:03 42 [WARN] Warning message
+20170803 20:37:03 42 [ERROR] Error info
+20170803 20:37:03 42 [INFO] /login
+20170803 20:37:03 43 [INFO] /signup
+20170803 20:37:03 43 [INFO] /
+20170803 20:37:03 43 [INFO] /home
+20170803 20:37:03 43 [INFO] /signup
+20170803 20:37:03 43 [INFO] /login
+20170803 20:37:03 44 [INFO] /Company/create
+20170803 20:37:03 44 [INFO] /Company/create
+20170803 20:37:23 77 [VERBOSE] Verbose info
+20170803 20:37:23 78 [INFO] Hello world
+20170803 20:37:23 78 [WARN] Warning message
+20170803 20:37:23 78 [ERROR] Error info
+20170803 20:37:23 78 [INFO] /login
+20170803 20:37:23 78 [INFO] /signup
+20170803 20:37:23 78 [INFO] /
+20170803 20:37:23 78 [INFO] /home
+20170803 20:37:23 78 [INFO] /signup
+20170803 20:37:23 79 [INFO] /login
+20170803 20:37:23 79 [INFO] /Company/create
+20170803 20:37:23 79 [INFO] /Company/create
+20170803 20:38:36 70 [VERBOSE] Verbose info
+20170803 20:38:36 70 [INFO] Hello world
+20170803 20:38:36 70 [WARN] Warning message
+20170803 20:38:36 70 [ERROR] Error info
+20170803 20:38:36 70 [INFO] /login
+20170803 20:38:36 70 [INFO] /signup
+20170803 20:38:36 70 [INFO] /
+20170803 20:38:36 71 [INFO] /home
+20170803 20:38:36 71 [INFO] /signup
+20170803 20:38:36 71 [INFO] /login
+20170803 20:38:36 71 [INFO] /Company/create
+20170803 20:38:36 71 [INFO] /Company/create

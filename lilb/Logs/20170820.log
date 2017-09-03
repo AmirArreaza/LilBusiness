@@ -1,0 +1,91 @@
+20170820 20:50:45 33 [VERBOSE] Verbose info
+20170820 20:50:45 33 [INFO] Hello world
+20170820 20:50:45 34 [WARN] Warning message
+20170820 20:50:45 34 [ERROR] Error info
+20170820 20:50:45 34 [INFO] development
+20170820 20:50:45 34 [INFO] /login
+20170820 20:50:45 34 [INFO] /signup
+20170820 20:50:45 34 [INFO] /
+20170820 20:50:45 34 [INFO] /home
+20170820 20:50:45 35 [INFO] /signup
+20170820 20:50:45 35 [INFO] /login
+20170820 20:50:45 35 [INFO] /Company/create
+20170820 20:50:45 35 [INFO] /Company/create
+20170820 20:50:57 21 [INFO] 
+	{"company_number":"fsdf","company_email":"ljlkjlk","company_name":"lkjlkjlk","company_phone":"lkjlk"}
+20170820 20:50:57 22 [INFO] {"company_number":"fsdf","company_email":"ljlkjlk","company_name":"lkjlkjlk","company_phone":"lkjlk"}
+20170820 20:50:57 23 [ERROR] Companies validation failed: company_number: Cast to Number failed for value "fsdf" at path "company_number"
+20170820 20:51:00 46 [INFO] 
+	{"company_number":"","company_email":"","company_name":"","company_phone":""}
+20170820 20:51:00 46 [INFO] {"company_number":"","company_email":"","company_name":"","company_phone":""}
+20170820 20:51:00 63 [INFO] 
+	{"company_number":"","company_email":"","company_name":"","company_phone":""}
+20170820 20:51:00 63 [INFO] {"company_number":"","company_email":"","company_name":"","company_phone":""}
+20170820 20:52:35 62 [VERBOSE] Verbose info
+20170820 20:52:35 63 [INFO] Hello world
+20170820 20:52:35 63 [WARN] Warning message
+20170820 20:52:35 63 [ERROR] Error info
+20170820 20:52:35 63 [INFO] development
+20170820 20:52:35 63 [INFO] /login
+20170820 20:52:35 63 [INFO] /signup
+20170820 20:52:35 63 [INFO] /
+20170820 20:52:35 64 [INFO] /home
+20170820 20:52:35 64 [INFO] /signup
+20170820 20:52:35 64 [INFO] /login
+20170820 20:52:35 64 [INFO] /Company/create
+20170820 20:52:35 64 [INFO] /Company/create
+20170820 20:52:44 96 [INFO] 
+	{"company_number":"asdasd","company_email":"kjh","company_name":"kjhkjh","company_phone":"kjhk"}
+20170820 20:52:44 97 [INFO] {"company_number":"asdasd","company_email":"kjh","company_name":"kjhkjh","company_phone":"kjhk"}
+20170820 20:52:44 97 [ERROR] Companies validation failed: company_number: Cast to Number failed for value "asdasd" at path "company_number"
+20170820 20:57:36 11 [VERBOSE] Verbose info
+20170820 20:57:36 12 [INFO] Hello world
+20170820 20:57:36 12 [WARN] Warning message
+20170820 20:57:36 12 [ERROR] Error info
+20170820 20:57:36 12 [INFO] development
+20170820 20:57:36 12 [INFO] /login
+20170820 20:57:36 12 [INFO] /signup
+20170820 20:57:36 12 [INFO] /
+20170820 20:57:36 12 [INFO] /home
+20170820 20:57:36 13 [INFO] /signup
+20170820 20:57:36 13 [INFO] /login
+20170820 20:57:36 13 [INFO] /Company/create
+20170820 20:57:36 13 [INFO] /Company/create
+20170820 20:58:01 74 [INFO] 
+	{"company_number":"hkjhkjh","company_email":"kjhkjhkjhkj","company_name":"hkjhkhkjh","company_phone":"kjhkh"}
+20170820 20:58:01 76 [INFO] {"company_number":"hkjhkjh","company_email":"kjhkjhkjhkj","company_name":"hkjhkhkjh","company_phone":"kjhkh"}
+20170820 20:58:01 76 [ERROR] Companies validation failed: company_number: Cast to Number failed for value "hkjhkjh" at path "company_number"
+20170820 21:00:14 21 [VERBOSE] Verbose info
+20170820 21:00:14 21 [INFO] Hello world
+20170820 21:00:14 21 [WARN] Warning message
+20170820 21:00:14 21 [ERROR] Error info
+20170820 21:00:14 21 [INFO] development
+20170820 21:00:14 22 [INFO] /login
+20170820 21:00:14 22 [INFO] /signup
+20170820 21:00:14 22 [INFO] /
+20170820 21:00:14 22 [INFO] /home
+20170820 21:00:14 22 [INFO] /signup
+20170820 21:00:14 22 [INFO] /login
+20170820 21:00:14 22 [INFO] /Company/create
+20170820 21:00:14 23 [INFO] /Company/create
+20170820 21:00:24 76 [INFO] 
+	{"company_number":"sfas","company_email":"kjhkjhj","company_name":"kjjhk","company_phone":"jhkjhkj"}
+20170820 21:00:24 77 [INFO] {"company_number":"sfas","company_email":"kjhkjhj","company_name":"kjjhk","company_phone":"jhkjhkj"}
+20170820 21:00:24 78 [ERROR] Companies validation failed: company_number: Cast to Number failed for value "sfas" at path "company_number"
+20170820 21:11:00 58 [VERBOSE] Verbose info
+20170820 21:11:00 59 [INFO] Hello world
+20170820 21:11:00 59 [WARN] Warning message
+20170820 21:11:00 59 [ERROR] Error info
+20170820 21:11:00 59 [INFO] development
+20170820 21:11:00 59 [INFO] /login
+20170820 21:11:00 59 [INFO] /signup
+20170820 21:11:00 60 [INFO] /
+20170820 21:11:00 60 [INFO] /home
+20170820 21:11:00 60 [INFO] /signup
+20170820 21:11:00 60 [INFO] /login
+20170820 21:11:00 60 [INFO] /Company/create
+20170820 21:11:00 60 [INFO] /Company/create
+20170820 21:11:09 72 [INFO] 
+	{"company_number":"kjhkjh","company_email":"khjk","company_name":"hkj","company_phone":"hkjh"}
+20170820 21:11:09 73 [INFO] {"company_number":"kjhkjh","company_email":"khjk","company_name":"hkj","company_phone":"hkjh"}
+20170820 21:11:09 74 [ERROR] Companies validation failed: company_number: Cast to Number failed for value "kjhkjh" at path "company_number"

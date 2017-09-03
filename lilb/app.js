@@ -7,7 +7,6 @@ var constant = require('./config/constants');
 
 
 var port = process.env.PORT || 8042;
-var mongoose = require('mongoose');
 var passport = require('passport');
 var flash = require('connect-flash');
 var path = require('path');
@@ -17,24 +16,27 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var bodyParser = require('body-parser');
-var dateFormat = require('dateformat');
-var now = new Date();
+
+var env = process.env.NODE_ENV || 'development';
+
+/***************Winston Loggin configuratrion********************/
+var logger = require('./config/logger.js')(logger, env);
+/****************************************************************/
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-
 /***************Mongodb configuratrion********************/
 var mongoose = require('mongoose');
 var configDB = require('./config/database.js');
-//configuration ===============================================================
 
 mongoose.Promise = global.Promise;
 
 mongoose.connect(configDB.url); // connect to our database
 
-
 require('./config/passport')(passport); // pass passport for configuration
+require('./app/models/company');
+//configuration ===============================================================
 
 //set up our express application
 app.use(morgan('dev')); // log every request to the console
@@ -68,10 +70,16 @@ require('./config/routes.js')(app, passport); // load our routes and pass in our
 //launch ======================================================================
 app.listen(port);
 console.log('The magic happens on port ' + port);
+logger.debug('Debugging info');
+logger.verbose('Verbose info');
+logger.info('Hello world');
+logger.warn('Warning message');
+logger.error('Error info');
+logger.info(env);
 
 app._router.stack.forEach(function(r){
   if (r.route && r.route.path){
-    console.log(r.route.path)
+    logger.info(r.route.path);
   }
 })
 
@@ -84,3 +92,5 @@ app.use(function (req, res, next) {
     res.status(500).render('404', {title: "Sorry, page not found"});
 });
 exports = module.exports = app;
+
+

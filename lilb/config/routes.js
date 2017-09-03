@@ -1,6 +1,7 @@
 var home = require('../app/controllers/home');
 
 //you can include all your controllers
+var company = require('../app/controllers/company');
 
 module.exports = function (app, passport) {
 
@@ -22,5 +23,8 @@ module.exports = function (app, passport) {
         failureFlash: true // allow flash messages
     }));
 
-
+    //Company Routes
+    app.get('/Company/create', company.create);
+    app.post('/Company/create', company.add);
+    
 }

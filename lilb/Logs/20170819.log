@@ -1,0 +1,41 @@
+20170819 23:33:46 76 [VERBOSE] Verbose info
+20170819 23:33:46 79 [INFO] Hello world
+20170819 23:33:46 80 [WARN] Warning message
+20170819 23:33:46 80 [ERROR] Error info
+20170819 23:33:46 81 [INFO] /login
+20170819 23:33:46 81 [INFO] /signup
+20170819 23:33:46 82 [INFO] /
+20170819 23:33:46 82 [INFO] /home
+20170819 23:33:46 83 [INFO] /signup
+20170819 23:33:46 83 [INFO] /login
+20170819 23:33:46 84 [INFO] /Company/create
+20170819 23:33:46 84 [INFO] /Company/create
+20170819 23:36:47 64 [VERBOSE] Verbose info
+20170819 23:36:47 65 [INFO] Hello world
+20170819 23:36:47 65 [WARN] Warning message
+20170819 23:36:47 65 [ERROR] Error info
+20170819 23:36:47 65 [INFO] /login
+20170819 23:36:47 65 [INFO] /signup
+20170819 23:36:47 65 [INFO] /
+20170819 23:36:47 65 [INFO] /home
+20170819 23:36:47 66 [INFO] /signup
+20170819 23:36:47 66 [INFO] /login
+20170819 23:36:47 66 [INFO] /Company/create
+20170819 23:36:47 66 [INFO] /Company/create
+20170819 23:37:01 02 [INFO] 
+	{"company_number":"sdf","company_email":"asfads","company_name":"sada","company_phone":"sdas"}
+20170819 23:37:01 05 [INFO] 
+	{"company_number":"sdf","company_email":"asfads","company_name":"sada","company_phone":"sdas"}
+20170819 23:38:36 37 [VERBOSE] Verbose info
+20170819 23:38:36 37 [INFO] Hello world
+20170819 23:38:36 37 [WARN] Warning message
+20170819 23:38:36 38 [ERROR] Error info
+20170819 23:38:36 38 [INFO] development
+20170819 23:38:36 38 [INFO] /login
+20170819 23:38:36 38 [INFO] /signup
+20170819 23:38:36 38 [INFO] /
+20170819 23:38:36 38 [INFO] /home
+20170819 23:38:36 38 [INFO] /signup
+20170819 23:38:36 38 [INFO] /login
+20170819 23:38:36 39 [INFO] /Company/create
+20170819 23:38:36 39 [INFO] /Company/create
